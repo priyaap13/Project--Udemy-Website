@@ -1,0 +1,32 @@
+.brand{
+    height: 40px;
+}
+
+.glow{
+    animation: glow 1s infinite linear;
+}
+
+@keyframes glow{
+0%{
+    filter: brightness(100%);
+} 100%{
+    filter: brightness(50%);
+}
+}
+
+.heading{
+    font-size: 60px;
+    
+}
+.player{
+    left: 70px;
+}
+.bg-select{
+    background-color: rgb(169, 236, 206);
+}
+.info{
+    margin-top: 5px;
+}
+.mycard{
+    display: flex;
+}
